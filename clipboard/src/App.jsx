@@ -60,7 +60,7 @@ function App() {
     setLoading(prev => ({ ...prev, [type]: true }));
 
     try {
-      const res = await axios.post("http://localhost:5000/upload", formData);
+      const res = await axios.post("https://clipboard-1q6x.onrender.com/upload", formData);
       const code = res.data.code;
       if (type === "text") setTextCode(code);
       else if (type === "files") setFileCode(code);
@@ -81,7 +81,7 @@ function App() {
     setLoading(prev => ({ ...prev, fetch: true }));
     try {
       const res = await axios.get(
-        `http://localhost:5000/clipboard/${fetchCode}`
+        `https://clipboard-1q6x.onrender.com/clipboard/${fetchCode}`
       );
       setReceivedData(res.data);
       setErrors((prev) => ({ ...prev, fetchCode: "" }));
@@ -390,7 +390,7 @@ function App() {
                             <div>
                               {isImage(file.name) ? (
                                 <img
-                                  src={`http://localhost:5000/${file.path}`}
+                                  src={`https://clipboard-1q6x.onrender.com/${file.path}`}
                                   alt={file.name}
                                   className="img-thumbnail me-3"
                                   style={{ maxHeight: "100px" }}
@@ -400,7 +400,7 @@ function App() {
                               )}
                             </div>
                             <a
-                              href={`http://localhost:5000/${file.path}`}
+                              href={`https://clipboard-1q6x.onrender.com/${file.path}`}
                               download
                               target="_blank"
                               className="btn btn-sm btn-outline-success"
