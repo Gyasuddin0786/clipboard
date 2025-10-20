@@ -698,7 +698,6 @@ function App() {
           </div>
         </div>
       </div>
-
       {/* Optional Footer Display */}
       <div className="mt-5">
         <section className={`shadow rounded p-4 mt-5 ${darkMode ? 'bg-secondary' : 'bg-white'}`}>
@@ -853,5 +852,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
