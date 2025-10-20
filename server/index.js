@@ -64,5 +64,16 @@ app.get("/clipboard/:code", (req, res) => {
   res.json(data);
 });
 
+// Auto-delete expired codes (older than 10 minutes)
+setInterval(() => {
+  const now = new Date();
+  Object.keys(clipboardDB).forEach(code => {
+    const data = clipboardDB[code];
+    if (now - new Date(data.createdAt) > 10 * 60 * 1000) { // 10 minutes
+      delete clipboardDB[code];
+    }
+  });
+}, 60000); // Check every minute
+
 // Server
 app.listen(5000, () => console.log("🚀 Server running on http://localhost:5000"));
