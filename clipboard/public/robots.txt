@@ -2,9 +2,5 @@
 User-agent: *
 Allow: /
 
-# Disallow node and config files (just in case)
-Disallow: /node_modules/
-Disallow: /src/
-
 # Sitemap location (important for Google Search Console)
 Sitemap: https://apna-clipboard.vercel.app/sitemap.xml
