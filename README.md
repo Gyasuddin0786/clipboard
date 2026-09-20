@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on apna-clipboard<br>👯 I’m looking to collaborate on this project with together <br>🤝 I’m looking for help who eager to leran and grow<br>🌱 I’m currently learning and deploying<br>💬 Ask me about this projects whenever you feel to free.<br>⚡ Fun fact
+# 👋 About Me:<br><br>📋 Currently building **Apna Clipboard** — your personal online clipboard  <br>💾 Save, manage & access your copied content anytime, anywhere  <br>🚀 Continuously improving features and user experience  <br>🌱 Learning and exploring new technologies in **Full Stack Development**  <br>🤝 Open to collaboration and contributions  <br>💬 Ask me about **React, JavaScript, Node.js, Express & MongoDB**  <br>⚡ Fun fact: **I turn everyday problems into web projects! 💡**
 
 
 ## 🌐 Socials:
@@ -11,12 +11,6 @@
 ![](https://github-readme-stats.shion.dev/api?username=Gyasuddin0786&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=Gyasuddin0786&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Gyasuddin0786&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Gyasuddin0786&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
 [![](https://komarev.com/ghpvc/?username=Gyasuddin0786&icon=0&color=0)](https://visitcount.itsvg.in)
